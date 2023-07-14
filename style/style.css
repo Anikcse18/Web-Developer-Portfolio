@@ -5,7 +5,7 @@
 }
 
 body{
-    margin-top: 50px;
+    
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -16,7 +16,14 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center ;
+    padding-top: 50px;
    
+}
+
+header{
+    background-color: #FFF8F3;
+
+
 }
 
 
@@ -48,13 +55,63 @@ nav ul li a{
 }
 .primary-btn-color{
 
-    width: 150px;
-    height: 64px;
-    font-size: 20px;
-    font-weight: 500;
+    width: 141px;
+    height: 52px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
     border-radius: 5px;
     background: #FD6E0A;
     color: white;
     border: none;
-    padding: 18px 36px;
+    padding: 13px 31px;;
+}
+
+/* This is navbar section */
+
+/* this is banner section */
+
+.banner{
+
+    display: flex;
+    padding: 20px 0px 10px 150px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.banner-btn{
+    width: 130px;
+    height: 52px;
+    font-size: 15px;
+    color: #FFF;
+    background: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.contact-btn{
+
+    width: 130px;
+    height: 52px;
+    font-size: 15px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 90px;
+}
+
+.banner-img{
+    width: 400px;
+    height: auto;
+
+
 }
