@@ -366,8 +366,56 @@ main section{
 
 }
 footer{
-
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 100px;
     margin-top: 150px;
-    background-color: #FD6E0A;
+    display: flex;
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    
+    
 }
 
+.footer-title{
+    color: #181818;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.footer-content{
+
+
+    color: #474747;
+    font-size: 15px;
+
+    font-weight: 400;
+    line-height: 28px;
+    margin: 30px 0;
+}
+.footer-coloume a{
+
+    padding: 0 5px;
+}
+
+.form-input{
+
+    width: 50%;
+}
+.form-input input, textarea{
+
+    display: block;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    background:  #FFF;
+    margin-bottom: 30px;
+
+    width: 100%;
+}
+
+#footer-cotitle{
+
+    margin-bottom: 15px;
+}
